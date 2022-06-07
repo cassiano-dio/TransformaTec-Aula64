@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import ChangeColor from './components/ChangeColor'
+import LazyFunction from './components/LazyFunction'
+import FormState from './components/FormState'
+import PrevState from './components/PrevState'
+import SetStateClass from './components/SetStateClass'
+import SetStateFunction from './components/SetStateFunction';
+import SetStateFunctionPrev from './components/SetStateFunctionPrev';
 
 function App() {
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       {/* <ChangeColor />
+       <LazyFunction />
+       <FormState /> */}
+       {/* <PrevState />
+       <SetStateClass />
+       <SetStateFunction /> */}
+       <SetStateFunctionPrev />
+
     </div>
   );
 }
